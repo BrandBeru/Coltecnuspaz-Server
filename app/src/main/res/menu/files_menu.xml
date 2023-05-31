@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/create"
+            android:icon="@drawable/baseline_create_new_folder_24"
+            android:title="@string/make_directory"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/hiden"
+            android:title="@string/hiden_file"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="never" />
+    </group>
+    <group>
+        <item android:id="@+id/close"
+            android:title="@string/close_session"
+            app:showAsAction="never" />
+    </group>
+
+
+</menu>
